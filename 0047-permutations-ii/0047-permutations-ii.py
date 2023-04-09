@@ -23,10 +23,4 @@ class Solution:
         for sublist in self.my_instance_variable:
             if sublist not in unique_list:
                 unique_list.append(sublist)
-        # unique_list = list(map(list, set(map(tuple, self.my_instance_variable))))
-        # for i in self.my_instance_variable:
-        #     if self.my_instance_variable.count(i)>1:
-        #         l1=self.my_instance_variable.count(i)
-        #         for u in range(l1-1):
-        #             self.my_instance_variable.remove(i)
         return unique_list 
